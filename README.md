@@ -3,14 +3,8 @@ Here a few comments about this solution to Ghost word game http://en.wikipedia.o
 
 . It’s a very bare-boned web application based on jQuery and the MVC Ajax support 
 offered by Spring 3. 
-. I used Maven 2 but the pom file is so simple that there should not be any problem building 
-it with Maven 3 
-. I tested the application using java version 1.6.0_21 and Tomcat 5.5.28. Just in case there 
-is any problem, there is a pre-built war file included in the ZIP file I sent 
 . There is no configuration involved. You can access the application using this url as an 
 entry point: http://127.0.0.1:8080/optimalghost 
-. I didn’t check the code using Sonar but I’m pretty sure that I have reached quite a high 
-test coverage. In fact I’m using nyctalopia in my tests… ;-) 
 . The algorithm of game resolution is based on the construction of a tree. First this tree is 
 post-order traversed to find which nodes are goals for every player and then it is pre-order 
 traversed again to prune it. All the nodes not logical from a computer player point of view 
