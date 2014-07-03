@@ -1,6 +1,6 @@
 Hi 
 
-Here a few comments about this solution to Ghost word game http://en.wikipedia.org/wiki/(Ghost_game)
+Here a few comments about this solution to Ghost word game http://en.wikipedia.org/wiki/Ghost_(game)
 
 1) It's a very bare-boned web application based on jQuery and the MVC Ajax support offered by Spring 3. 
 
