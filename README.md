@@ -18,7 +18,7 @@ http://127.0.0.1:8080/optimalghost
 
 4) All application users share the same tree. They just have different pointers to different nodes of that game tree. 
 
-5) There is little layering in the solution, in fact no services are injected in the Spring MVCcontroller which is accessing directly the game object. It seems to me kind of overarchitecting for such a small application 
+5) There is little layering in the solution, in fact no services are injected in the Spring MVCcontroller which is accessing directly the game object. Doing otherwise seems to me kind of overarchitecting such a small application 
 
 6) And finally, the page design (or more properly speaking, the absolute lack of it) reflects my minimalistic aesthetic tastes ;-). Well, to be honest, web designing is far, far away from being one my talents
 
